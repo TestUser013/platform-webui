@@ -1,0 +1,9 @@
+{
+    "name": "my-app",
+    "version": "1.0.0",
+    "author": "SoftServe",
+    "license": "ISC",
+    "devDependencies": {
+        "typescript": "3.5.3"
+    }
+}

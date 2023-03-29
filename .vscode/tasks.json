@@ -1,0 +1,65 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "init",
+            "command": "node.exe",
+            "type": "process",
+            "args": [ "index.js", "--action", "init" ],
+            "presentation": { "reveal": "silent" },
+            "group": { "kind": "build" },
+            "runOptions": { "reevaluateOnRerun": false },
+            "problemMatcher": []
+        },
+        {
+            "label": "download",
+            "command": "node.exe",
+            "type": "process",
+            "args": [ "index.js", "--action", "download" ],
+            "presentation": { "reveal": "silent" },
+            "group": { "kind": "build" },
+            "runOptions": { "reevaluateOnRerun": false },
+            "problemMatcher": []
+        },
+        {
+            "label": "build",
+            "command": "node.exe",
+            "type": "process",
+            "args": [ "index.js", "--action", "build" ],
+            "presentation": { "reveal": "silent" },
+            "group": { "kind": "build" },
+            "runOptions": { "reevaluateOnRerun": false },
+            "problemMatcher": []
+        },
+        {
+            "label": "upload",
+            "command": "node.exe",
+            "type": "process",
+            "args": [ "index.js", "--action", "upload" ],
+            "presentation": { "reveal": "silent" },
+            "group": { "kind": "build" },
+            "runOptions": { "reevaluateOnRerun": false },
+            "problemMatcher": []
+        },
+        {
+            "label": "watch",
+            "command": "node.exe",
+            "type": "process",
+            "args": [ "index.js", "--action", "watch" ],
+            "presentation": { "reveal": "silent" },
+            "group": { "kind": "build" },
+            "runOptions": { "reevaluateOnRerun": false },
+            "problemMatcher": []
+        },
+        {
+            "label": "clean",
+            "command": "node.exe",
+            "type": "process",
+            "args": [ "index.js", "--action", "clean" ],
+            "presentation": { "reveal": "silent" },
+            "group": { "kind": "build" },
+            "runOptions": { "reevaluateOnRerun": false },
+            "problemMatcher": []
+        }
+    ]
+}

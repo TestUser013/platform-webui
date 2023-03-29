@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "moduleResolution": "classic",
+        "module": "None",
+        "rootDir": "./ts",
+        "allowNonTsExtensions": true,
+        "inlineSourceMap": true,
+        "inlineSources": true,
+        "skipLibCheck": true,
+        "noEmitOnError": true,
+        "strictNullChecks": false
+    },
+
+    "include": [
+        "./ts/**/*.ts"
+    ],
+
+    "exclude": [
+        "**/node_modules"
+    ]
+}

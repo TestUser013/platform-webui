@@ -1,0 +1,12 @@
+{
+    "protocol": "https",
+    "host": "localhost",
+    "port": "22011",
+    "webapp": "qad-central",
+    "user": "mfg@qad.com",
+    "password": "",
+    "appUri": "urn:app:com.....",
+    "businessComponents": [
+        "urn:be:com....."
+    ]
+}
